@@ -7,7 +7,7 @@
                 <div class="header-body text-center mb-7">
                     <div class="row justify-content-center">
                         <div class="col-lg-5 col-lg-6 col-md-8 px-5">
-                            <h1 class="text-white">Selamat Datang!</h1>
+                            <h1 class="text-white">Selamat Datang Di KAS-KU!</h1>
                             <p class="text-lead text-white">Silakan login terlebih dahulu</p>
                         </div>
                     </div>
