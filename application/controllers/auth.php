@@ -86,7 +86,7 @@ class Auth extends CI_Controller
         $this->form_validation->set_rules('password2', 'Password', 'required|trim|matches[password1]');
 
         if ($this->form_validation->run() == false) {
-            $data['title'] = 'SITANGKAS - Registration';
+            $data['title'] = 'KAS-KU - Registration';
             $this->load->view('templates/auth_header', $data);
             $this->load->view('auth/registration', $data);
             $this->load->view('templates/auth_footer');
@@ -217,7 +217,7 @@ class Auth extends CI_Controller
         $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
 
         if ($this->form_validation->run() == false) {
-            $data['title'] = 'SITANGKAS - Forget Password';
+            $data['title'] = 'KAS-KU - Forget Password';
             $this->load->view('templates/auth_header', $data);
             $this->load->view('auth/forgetpassword', $data);
             $this->load->view('templates/auth_footer');
@@ -289,7 +289,7 @@ class Auth extends CI_Controller
         $this->form_validation->set_rules('password2', 'Repeat Password', 'trim|required|min_length[6]|matches[password1]');
 
         if ($this->form_validation->run() == false) {
-            $data['title'] = 'SITANGKAS - Change Password';
+            $data['title'] = 'KAS-KU - Change Password';
             $this->load->view('templates/auth_header', $data);
             $this->load->view('auth/changepassword', $data);
             $this->load->view('templates/auth_footer');

@@ -26,7 +26,7 @@
                     <div class="card bg-secondary border-0 mb-0">
                         <div class="card-body px-lg-5 py-lg-5">
                             <div class="text-center text-muted mb-4">
-                                <h1>Sign in</h1>
+                                <h1>Login</h1>
                             </div>
                             <?= $this->session->flashdata('message'); ?>
                             <form role="form" action="<?= base_url('auth'); ?>" method="POST">
@@ -49,7 +49,7 @@
                                     <?= form_error('password', '<small class="text-danger">', '</small>'); ?>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-primary my-4">Sign in</button>
+                                    <button type="submit" class="btn btn-primary my-4">Login</button>
                                 </div>
                             </form>
                         </div>
